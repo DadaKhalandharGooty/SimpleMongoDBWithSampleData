@@ -9,6 +9,6 @@ services:
                 links:
                         - mongodb
                 volumes:
-                        - "/home/sai/study/docker/mongoseed:/mongoseed"
+                        - "./mongoseed:/mongoseed"
                 command:
                         /mongoseed/import.sh
