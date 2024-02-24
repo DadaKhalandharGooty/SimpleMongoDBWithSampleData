@@ -1,0 +1,14 @@
+version: '1'
+services:
+        mongodb:
+                image: mongo:3.2.6
+                ports:
+                        - 27017:27017
+        mongo_seed:
+                image: mongo:3.2.6
+                links:
+                        - mongodb
+                volumes:
+                        - "/home/sai/study/docker/mongoseed:/mongoseed"
+                command:
+                        /mongoseed/import.sh
