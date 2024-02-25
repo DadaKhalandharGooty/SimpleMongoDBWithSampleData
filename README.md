@@ -1,6 +1,6 @@
 # Simple MongoDB set up with Sample Data
 
-The set up is done for Linux. It can be translated to other Oprerating System's easily.
+The set up is done for Linux. It can be translated to other Oprerating Systems easily.
 
 ## Prerequisites
 
